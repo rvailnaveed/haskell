@@ -42,7 +42,7 @@ Learning functional programming and haskell via: [Learn you a haskell](http://le
 ## Lists
   + ### **Common List Operations**
     | Operator    | Function                                                                                              | Example                        | Result                    |
-|----------|----------------------------------------------------------------------------------------------------|-----------------------------|------------------------|
+|-|-|-|-|
 | `++`        | Puts 2 lists together                                                                                 | `[1, 2 , 3] ++ [4, 5, 6]`      | `[1, 2, 3, 4, 5, 6]`      |
 | `:`         | Cons. Prepends element to front                                                                       | `'A':" SMALL CAT"`             | `"A SMALL CAT"`           |
 | `:`         | Cons. Prepends element to front                                                                       | `5:[1,2,3,4,5]`                | `[5,1,2,3,4,5]`           |

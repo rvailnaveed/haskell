@@ -40,8 +40,13 @@ Learning functional programming and haskell via: [Learn you a haskell](http://le
   + ' is valid in a function name. Often used to denote slightly different functions.
     
 ## Lists
+<<<<<<< HEAD
 ### **Common List Operations**
 Operator | Function | Example | Result
+=======
+  + ### **Common List Operations**
+    Operator | Function | Example | Result
+>>>>>>> 07d5024a50ca639e076c638194d20f1754aa4c15
 --- | --- | --- | ---
 `++` | Puts 2 lists together | `[1, 2 , 3] ++ [4, 5, 6]` | `[1, 2, 3, 4, 5, 6]`
 `:` | Cons. Prepends element to front | `'A':" SMALL CAT"` | `"A SMALL CAT"`
@@ -63,9 +68,13 @@ Operator | Function | Example | Result
 `elem` | Checks if x is in list | `4 elem [3 ,5 ,6]` | `False`
 `cycle` | Takes list and cycles into infinte list. Must specify limit when extracting or will go on forever... | `take 10 (cycle [1,2,3])` | `[1,2,3,1,2,3,1,2,3,1]`
 `repeat` | Cycling but with one element | `take 10 (repeat 5)` | `[5,5,5,5,5,5,5,5,5,5]  `
+<<<<<<< HEAD
 `replicate` | Simpler version of repeat | `replicate 3 10` | `[10,10,10]`
 
   ![alt text](res/listmonster.png "List monster")
+=======
+`replicate` | Simpler version of repeat | `replicate 3 10` | `[10,10,10]`v
+>>>>>>> 07d5024a50ca639e076c638194d20f1754aa4c15
 
   _Image courtesy of [Learn you a haskell](http://learnyouahaskell.com/)_
     

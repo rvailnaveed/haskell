@@ -41,30 +41,29 @@ Learning functional programming and haskell via: [Learn you a haskell](http://le
     
 ## Lists
   + ### **Common List Operations**
-    | Operator    | Function                                                                                              | Example                        | Result                    |
-|-|-|-|-|
-| `++`        | Puts 2 lists together                                                                                 | `[1, 2 , 3] ++ [4, 5, 6]`      | `[1, 2, 3, 4, 5, 6]`      |
-| `:`         | Cons. Prepends element to front                                                                       | `'A':" SMALL CAT"`             | `"A SMALL CAT"`           |
-| `:`         | Cons. Prepends element to front                                                                       | `5:[1,2,3,4,5]`                | `[5,1,2,3,4,5]`           |
-| `!!`        | Used to get element at an index. Must be within bounds                                                | `"Arnold Schwarzenegger" !! 7` | `S`                       |
-| `head`      | First element of list                                                                                 | `head [1, 2 , 3]`              | `1`                       |
-| `tail`      | Returns tail of list (Cuts off head)                                                                  | `tail [1, 2, 3]`               | `[2, 3]`                  |
-| `last`      | Last element of list                                                                                  | `last [1, 2, 3]`               | `3`                       |
-| `init`      | Takes list and returns list minus last element                                                        | `init [1, 2, 3]`               | `[1, 2]`                  |
-| `length`    | Returns length of list (number of elems)                                                              | `length  [1, 2, 3]`            | `3`                       |
-| `null`      | Checks whether list is empty                                                                          | `null []`                      | `True`                    |
-| `reverse`   | Reverses list                                                                                         |                                |                           |
-| `take`      | Takes x amount of elements from front of list and returns them                                        | `take 1 [1, 2, 3]`             | `[1]`                     |
-| `drop`      | Removes x amount of elements from front of list                                                       | `drop 2 [1, 2, 3]`             | `[3]`                     |
-| `maximum`   | Finds max                                                                                             | `maximum [1, 2, 3]`            | `3`                       |
-| `minimum`   | Finds min                                                                                             | `minimum [1, 2, 3]`            | `1`                       |
-| `sum`       | Adds all numbers                                                                                      | `sum [1, 2, 3]`                | `6`                       |
-| `product`   | Multiplies all numbers                                                                                | `product [1, 2, 3]`            | `6`                       |
-| `elem`      | Checks if x is in list                                                                                | `4 elem [3 ,5 ,6]`             | `False`                   |
-| `cycle`     | Takes list and cycles into infinite list. Must specify limit when extracting or will go on forever... | `take 10 (cycle [1,2,3])`      | `[1,2,3,1,2,3,1,2,3,1]`   |
-| `repeat`    | Cycling but with one element                                                                          | `take 10 (repeat 5)`           | `[5,5,5,5,5,5,5,5,5,5]  ` |
-| `replicate` | Simpler version of repeat                                                                             | `replicate 3 10`               | `[10,10,10]`              |
-
+    Operator | Function | Example | Result
+--- | --- | --- | ---
+`++` | Puts 2 lists together | `[1, 2 , 3] ++ [4, 5, 6]` | `[1, 2, 3, 4, 5, 6]`
+`:` | Cons. Prepends element to front | `'A':" SMALL CAT"` | `"A SMALL CAT"`
+`:` | Cons. Prepends element to front | `5:[1,2,3,4,5]` | `[5,1,2,3,4,5]`
+`!!` | Used to get element at an index. Must be within bounds | `"Arnold Schwarzenegger" !! 7` | `S`
+`head` | First element of list | `head [1, 2 , 3]` | `1`
+`tail` | Returns tail of list (Cuts off head) | `tail [1, 2, 3]` | `[2, 3]`
+`last` | Last element of list | `last [1, 2, 3]` | `3`
+`init` | Takes list and returns list minus last element | `init [1, 2, 3]` | `[1, 2]`
+`length` | Returns length of list (number of elems) | `length  [1, 2, 3]` | `3`
+`null` | Checks whether list is empty | `null []` | `True`
+`reverse` | Reverses list | 
+`take` | Takes x amount of elements from front of list and returns them | `take 1 [1, 2, 3]` | `[1]`
+`drop` | Removes x amount of elements from front of list | `drop 2 [1, 2, 3]` | `[3]`
+`maximum` | Finds max | `maximum [1, 2, 3]` | `3`
+`minimum` | Finds min | `minimum [1, 2, 3]` | `1`
+`sum` | Adds all numbers | `sum [1, 2, 3]` | `6`
+`product` | Multiplies all numbers | `product [1, 2, 3]` | `6`
+`elem` | Checks if x is in list | `4 elem [3 ,5 ,6]` | `False`
+`cycle` | Takes list and cycles into infinte list. Must specify limit when extracting or will go on forever... | `take 10 (cycle [1,2,3])` | `[1,2,3,1,2,3,1,2,3,1]`
+`repeat` | Cycling but with one element | `take 10 (repeat 5)` | `[5,5,5,5,5,5,5,5,5,5]  `
+`replicate` | Simpler version of repeat | `replicate 3 10` | `[10,10,10]`v
 
     ![alt text](res/listmonster.png "List monster")
 

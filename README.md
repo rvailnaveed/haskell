@@ -1,2 +1,2 @@
 # haskell
-Learning haskell via: [Learn you a haskell](http://learnyouahaskell.com/chapters)
+Learning functional programming and haskell via: [Learn you a haskell](http://learnyouahaskell.com/chapters)

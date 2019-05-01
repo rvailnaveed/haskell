@@ -42,7 +42,7 @@ Learning functional programming and haskell via: [Learn you a haskell](http://le
 ## Lists
 ### **Common List Operations**
 Operator | Function | Example | Result
---- | --- | --- | ---
+:---: | :---: | :---:| :---:
 `++` | Puts 2 lists together | `[1, 2 , 3] ++ [4, 5, 6]` | `[1, 2, 3, 4, 5, 6]`
 `:` | Cons. Prepends element to front | `'A':" SMALL CAT"` | `"A SMALL CAT"`
 `:` | Cons. Prepends element to front | `5:[1,2,3,4,5]` | `[5,1,2,3,4,5]`
@@ -61,7 +61,7 @@ Operator | Function | Example | Result
 `sum` | Adds all numbers | `sum [1, 2, 3]` | `6`
 `product` | Multiplies all numbers | `product [1, 2, 3]` | `6`
 `elem` | Checks if x is in list | `4 elem [3 ,5 ,6]` | `False`
-`cycle` | Takes list and cycles into infinte list. Must specify limit when extracting or will go on forever... | `take 10 (cycle [1,2,3])` | `[1,2,3,1,2,3,1,2,3,1]`
+`cycle` | Takes list and cycles into infinite list. Must specify limit when extracting or will go on forever... | `take 10 (cycle [1,2,3])` | `[1,2,3,1,2,3,1,2,3,1]`
 `repeat` | Cycling but with one element | `take 10 (repeat 5)` | `[5,5,5,5,5,5,5,5,5,5]  `
 `replicate` | Simpler version of repeat | `replicate 3 10` | `[10,10,10]`
 
@@ -91,8 +91,8 @@ Operator | Function | Example | Result
     + Much like set comprehensions
     +  List Comprehension | Result
        :---: | :---:
-       `[x*2` | `[x <- [1..10]]` | `[2,4,6,8,10,12,14,16,18,20]`
-       `[x*2` | `[x <- [1..10], x*2 >= 12]` | `[12,14,16,18,20]`
+       `[x*2 | [x <- [1..10]]` | `[2,4,6,8,10,12,14,16,18,20]`
+       `[x*2 | [x <- [1..10], x*2 >= 12]` | `[12,14,16,18,20]`
     + Weeding out lists using **predicates** is called **filtering**
     + Multiple predicates, and lists can be specified in comprehension
     + See examples in [lists.hs](lists.hs)

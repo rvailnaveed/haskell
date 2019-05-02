@@ -91,8 +91,8 @@ Operator | Function | Example | Result
     + Much like set comprehensions
     +  List Comprehension | Result
        :---: | :---:
-       `` [x*2 | [x <- [1..10]] `` | `[2,4,6,8,10,12,14,16,18,20]`
-       `` [x*2 | [x <- [1..10], x*2 >= 12] `` | `[12,14,16,18,20]`
+       <code>[x*2 | [x <- [1..10]]<\code> | `[2,4,6,8,10,12,14,16,18,20]`
+       <code>[x*2 | [x <- [1..10], x*2 >= 12]<\code> | `[12,14,16,18,20]`
     + Weeding out lists using **predicates** is called **filtering**
     + Multiple predicates, and lists can be specified in comprehension
     + See examples in [lists.hs](lists.hs)

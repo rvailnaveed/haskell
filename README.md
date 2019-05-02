@@ -60,7 +60,7 @@ Operator | Function | Example | Result
 `minimum` | Finds min | `minimum [1, 2, 3]` | `1`
 `sum` | Adds all numbers | `sum [1, 2, 3]` | `6`
 `product` | Multiplies all numbers | `product [1, 2, 3]` | `6`
-`elem` | Checks if x is in list | `4 elem [3 ,5 ,6]` | `False`
+`elem` | Checks if x is in list | `` 4 `elem` [3 ,5 ,6] ``| `False`
 `cycle` | Takes list and cycles into infinite list. Must specify limit when extracting or will go on forever... | `take 10 (cycle [1,2,3])` | `[1,2,3,1,2,3,1,2,3,1]`
 `repeat` | Cycling but with one element | `take 10 (repeat 5)` | `[5,5,5,5,5,5,5,5,5,5]  `
 `replicate` | Simpler version of repeat | `replicate 3 10` | `[10,10,10]`
@@ -91,8 +91,8 @@ Operator | Function | Example | Result
     + Much like set comprehensions
     +  List Comprehension | Result
        :---: | :---:
-       "`[x*2 | [x <- [1..10]]`" | `[2,4,6,8,10,12,14,16,18,20]`
-       "`[x*2 | [x <- [1..10], x*2 >= 12]`" | `[12,14,16,18,20]`
+       `` [x*2 | [x <- [1..10]] `` | `[2,4,6,8,10,12,14,16,18,20]`
+       `` [x*2 | [x <- [1..10], x*2 >= 12] `` | `[12,14,16,18,20]`
     + Weeding out lists using **predicates** is called **filtering**
     + Multiple predicates, and lists can be specified in comprehension
     + See examples in [lists.hs](lists.hs)

@@ -24,3 +24,8 @@
   `zip [1,2,3,4,5] [5,5,5,5,5]` | `[(1,5),(2,5),(3,5),(4,5),(5,5)]`
   `zip [1 .. 5] ["one", "two", "three", "four", "five"]` | `[(1,"one"),(2,"two"),(3,"three"),(4,"four"),(5,"five")]`
   `zip [1..] ["apple", "orange", "cherry", "mango"]` | `[(1,"apple"),(2,"orange"),(3,"cherry"),(4,"mango")]`
+
+## Problem
++ Contained in [tuples.hs](https://github.com/rvailnaveed/haskell/blob/master/tuples.hs)
++ Demonstrates common pattern in functional programming....
++ ...Take a starting set and apply transformations to those solutions and filter them until you get the right ones.

@@ -1,4 +1,27 @@
 # Types and Typeclasses
+- [Types and Typeclasses](#types-and-typeclasses)
+  - [**Overview**](#overview)
+  - [**Function Types**](#function-types)
+  - [**Common Types**](#common-types)
+    - [Int](#int)
+    - [Integer](#integer)
+    - [Float](#float)
+    - [Double](#double)
+    - [Bool](#bool)
+    - [Char](#char)
+    - [Tuples](#tuples)
+  - [**Type Variables**](#type-variables)
+  - [**Typeclasses**](#typeclasses)
+  - [**Some Basic Typeclasses**](#some-basic-typeclasses)
+    - [Eq](#eq)
+    - [Ord](#ord)
+    - [Show](#show)
+    - [Read](#read)
+    - [Enum](#enum)
+    - [Bounded](#bounded)
+    - [Num](#num)
+    - [Integral](#integral)
+    - [Floating](#floating)
 
 ## **Overview**
 +   Haskell posseses static type system.

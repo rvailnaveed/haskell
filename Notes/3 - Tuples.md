@@ -1,4 +1,5 @@
 # Tuples
+**[Chapter 2](http://learnyouahaskell.com/starting-out)**
 
 ## **Overview**
 + Used when you know exactly how many values you want to combine.

@@ -1,4 +1,6 @@
 # Lists
+**[Chapter 2](http://learnyouahaskell.com/starting-out)**
+
 ## **Common List Operations**
 Operator | Function | Example | Result
 :---: | :---: | :---:| :---:

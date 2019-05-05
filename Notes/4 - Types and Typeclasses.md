@@ -1,4 +1,6 @@
 # Types and Typeclasses
+**[Chapter 3](http://learnyouahaskell.com/types-and-typeclasses)**
+
 - [Types and Typeclasses](#types-and-typeclasses)
   - [**Overview**](#overview)
   - [**Function Types**](#function-types)

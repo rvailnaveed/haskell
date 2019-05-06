@@ -1,10 +1,12 @@
 ## Haskell
+[Good timez.exe](https://www.youtube.com/watch?v=RqvCNb7fKsg)
   + Lazy. Only does something when forced.
   + Allows us to think of programs as a series of transformations of data.
   + Offers [referential transparency](https://stackoverflow.com/a/210871/11125533).
   + Statically typed. Can determine types using _type inference_.
   
-## Useful Commands/Functions
+## Useful Things
+  + `--` denotes a comment.
   + `let`. Define name in [GHCI](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/ghci.html).
   + In ghci terminal: `:l script.hs` to load in functions from script.
   + Made changes?: `:r` or `:l script.hs` to refresh script in ghci.

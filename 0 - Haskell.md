@@ -1,5 +1,6 @@
 ## Haskell
 [Good timez.exe](https://www.youtube.com/watch?v=RqvCNb7fKsg)
+[Reference Card](https://wiki.haskell.org/Reference_card)
   + Lazy. Only does something when forced.
   + Allows us to think of programs as a series of transformations of data.
   + Offers [referential transparency](https://stackoverflow.com/a/210871/11125533).

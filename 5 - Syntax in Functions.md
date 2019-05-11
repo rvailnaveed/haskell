@@ -18,7 +18,7 @@ lucky x = "Sorry, you're out of luck, pal!" -- *any other number*
 + Cleaner and clearer than large `if/else` trees.
 + Must make sure that there is a catch-all pattern at the end so program doesn't crash on unexpected input.
 
-See [patterns.hs](https://github.com/rvailnaveed/haskell/blob/master/pattens.hs) for extended examples of pattern matching.
+See [patterns.hs](https://github.com/rvailnaveed/haskell/blob/master/code/patterns.hs) for extended examples of pattern matching.
 
 ## **As Patterns**
 + Handy way of breaking something up according to a pattern and binding it to names whilst still keeping a reference to the whole thing. 

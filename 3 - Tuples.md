@@ -27,6 +27,6 @@
   `zip [1..] ["apple", "orange", "cherry", "mango"]` | `[(1,"apple"),(2,"orange"),(3,"cherry"),(4,"mango")]`
 
 ## Problem
-+ Contained in [tuples.hs](https://github.com/rvailnaveed/haskell/blob/master/tuples.hs)
++ Contained in [tuples.hs](https://github.com/rvailnaveed/haskell/blob/master/code/tuples.hs)
 + Demonstrates common pattern in functional programming....
 + ...Take a starting set and apply transformations to those solutions and filter them until you get the right ones.

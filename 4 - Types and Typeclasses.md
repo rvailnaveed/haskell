@@ -228,4 +228,4 @@ Prelude> 20 :: Double
 
 ### Floating
 + Only floating point numbers (Float and Double).
-+ Useful function [fromIntegral](Haskell.md/#Useful-CommandsFunctions)
++ Useful function [fromIntegral](0 - Haskell.md/#Useful-CommandsFunctions)

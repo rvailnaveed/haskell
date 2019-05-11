@@ -38,7 +38,7 @@ Operator | Function | Example | Result
 + Example : `['a'..'z']` is equivalent to `"abcdefghijklmnopqrstuvwxyz"`
 + Example (with step) : `[2, 4,..20]` is equivalent to `[2,4,6,8,10,12,14,16,18,20]`
 + Best not to use floats with ranges. Can lead to weird behaviour
-+ See examples in [lists.hs](https://github.com/rvailnaveed/haskell/blob/master/lists.hs)
++ See examples in [lists.hs](https://github.com/rvailnaveed/haskell/blob/master/code/lists.hs)
 
 ## **Infinite Lists Intro**
 + Not specifying an uperr limit leads to an infinite list
@@ -46,7 +46,7 @@ Operator | Function | Example | Result
       + Naive : `[13,26..24*13]`
       + Better : `take 24 [13,26..]`
 + Becasue haskell is lazy, it will not evaluate the infinite list until you need it, it sees that you only need the first 24 elements so it obliges.
-    + See examples in [lists.hs](https://github.com/rvailnaveed/haskell/blob/master/lists.hs)
+    + See examples in [lists.hs](https://github.com/rvailnaveed/haskell/blob/master/code/lists.hs)
   
 ## **List Comprehensions**
 + Much like set comprehensions
@@ -56,10 +56,10 @@ Operator | Function | Example | Result
        `[x*2` <code>&#124;</code>`[x <- [1..10], x*2 >= 12]` | `[12,14,16,18,20]`
 + Weeding out lists using **predicates** is called **filtering**
 + Multiple predicates, and lists can be specified in comprehension
-+ See examples in [lists.hs](https://github.com/rvailnaveed/haskell/blob/master/lists.hs)
++ See examples in [lists.hs](https://github.com/rvailnaveed/haskell/blob/master/code/lists.hs)
 
 ## **Miscellaneous**
   + `[1,2,3]` is actually just syntactic sugar for `1:2:3:[]`, where `[]` is an empty list.
   + Equality operators (>, <, ==) can be used between lists. Elements compared in lexicographic order.
   + Lists within lists must still all be of the same type.
-  + See examples in [lists.hs](https://github.com/rvailnaveed/haskell/blob/master/lists.hs)
+  + See examples in [lists.hs](https://github.com/rvailnaveed/haskell/blob/master/code/lists.hs)

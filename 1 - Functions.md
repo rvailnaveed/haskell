@@ -12,5 +12,5 @@
     `bar (bar 3)` | `bar(bar(3))`
     Names must begin with lowercase | Can be named any way
   
-  + Becuase of referential transparancy simple functions can yield more complex functions (example in [funcs.hs](https://github.com/rvailnaveed/haskell/blob/master/funcs.hs).
+  + Becuase of referential transparancy simple functions can yield more complex functions (example in [funcs.hs](https://github.com/rvailnaveed/haskell/blob/master/code/funcs.hs).
   + ' is valid in a function name. Often used to denote slightly different functions.

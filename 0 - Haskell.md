@@ -20,7 +20,8 @@
     + Type declaration of `fromIntegral :: (Num b, Integral a) => a -> b`.
     + Eg: `(length [1,2,3,4]) + 3.2` won't work.
     + `fromIntegral (length [1,2,3,4]) + 3.2` will.
-  
+  + `takeWhile` takes a predicate and a list and then goes from the beginning of the list and returns its elements while the predicate holds true. Once an element is found for which the predicate doesn't hold, it stops.
+
 ## Arithmetic/Boolean Operations
   + **Always** use parentheses with negative numbers. `5 * -3` will not work -> `5 * (-3)` will.
   + Usual arithmetic syntax. True and False capitalised like Python.

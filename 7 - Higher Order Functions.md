@@ -48,4 +48,4 @@ Prelude> multWithEighteen 10
 180 
 ```
 
-See [Higher Order Functions](http://learnyouahaskell.com/higher-order-functions)
+See [Higher Order Functions](http://learnyouahaskell.com/higher-order-functions) for extensive examples and theory.

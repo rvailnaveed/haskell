@@ -40,7 +40,7 @@
 +   Good practise.
 +   `::` interpreted as _has type of_.
 
-```
+```haskell
 removeNonUppercase :: String -> String
 removeNonUppercase st = [ c | c <- st, c `elem` ['A'..'Z'] ]
 ```

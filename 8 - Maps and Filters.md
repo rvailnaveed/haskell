@@ -3,7 +3,7 @@
 ## Map
 +   `map` takes a function and a list and applied that function to every element in the list, producing a new list.
 
-```
+```haskell
 map :: (a -> b) -> [a] -> [b]  
 map _ [] = []  
 map f (x:xs) = f x : map f xs  
@@ -12,7 +12,7 @@ map f (x:xs) = f x : map f xs
 ## Filter
 +   `filter` is a function that takes a predicate and a list and then returns the list of elements that satisfy the predicate.
 
-```
+```haskell
 filter :: (a -> Bool) -> [a] -> [a]  
 filter _ [] = []  
 filter p (x:xs)   

@@ -48,7 +48,7 @@ removeNonUppercase st = [ c | c <- st, c `elem` ['A'..'Z'] ]
 + We then wrote the function body for **removeNonUppercase**.
 + Type of a function with several parameters:
 
-```
+```haskell
 addThree :: Int -> Int -> Int -> Int  
 addThree x y z = x + y + z 
 ```

@@ -15,13 +15,13 @@
 +   Putting a space between two things is simply **function apllication**. Acts as an operator and it has the highest precedence.
 +   Type of `max`
 
-```
+```haskell
 max :: (Ord a) => a -> a -> a
 ```
 
 +   Could also be written as:
 
-```
+```haskell
 max :: (Ord a) => a -> (a -> a)
 ```
 
@@ -33,13 +33,13 @@ max :: (Ord a) => a -> (a -> a)
 +   Meaning a fnction that takes as many parameters as we left out.
 +   Using partial application (calling functions with too few parameters) is a neat way to create functions on the fly so we can pass them to another function or to seed them with some data.
 
-```
+```haskell
 multThree :: (Num a) => a -> a -> a -> a  
 multThree x y z = x * y * z  
 ```
 +    So our function takes an a and returns a function of type `(Num a) => a -> (a -> a)`. Similarly, this function takes an a and returns a function of type `(Num a) => a -> a`. And this function, finally, just takes an `a` and returns an `a`.
 
-```
+```haskell
 Prelude> let multTwoWithNine = multThree 9  
 Prelude> multTwoWithNine 2 3  
 54  

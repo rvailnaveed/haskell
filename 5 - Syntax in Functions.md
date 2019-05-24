@@ -6,7 +6,7 @@
 + Consists of specifying patterns to which some data should conform to and then checking to see if it does and deconstructing the data according to those patterns.
 + When defining functions, you can define separate function bodies for different patterns.
 
-```
+```haskell
 lucky :: (Integral a) => a -> String  -- *function type declaration*
 lucky 7 = "LUCKY NUMBER SEVEN!"       
 lucky x = "Sorry, you're out of luck, pal!" -- *any other number*
@@ -24,7 +24,7 @@ See [patterns.hs](https://github.com/rvailnaveed/haskell/blob/master/code/patter
 + Handy way of breaking something up according to a pattern and binding it to names whilst still keeping a reference to the whole thing. 
 + You do that by putting a name and an `@` in front of a pattern. For instance, the pattern `xs@(x:y:ys)`
 
-```
+```haskell
 capital :: String -> String  
 capital "" = "Empty string, whoops!"  
 capital all@(x:xs) = "The first letter of " ++ all ++ " is " ++ [x]
@@ -35,7 +35,7 @@ capital all@(x:xs) = "The first letter of " ++ all ++ " is " ++ [x]
 + Whereas patterns are a way of making sure a value conforms to some form and deconstructing it, guards are a way of testing whether some property of a value (or several of them) are true or false.
 
 BMI berater using guards:
-```
+```haskell
 bmiTell :: (RealFloat a) => a -> a -> String  
 bmiTell weight height  
     | weight / height ^ 2 <= 18.5 = "You're underweight, you emo, you!"  
@@ -55,7 +55,7 @@ bmiTell weight height
 + Commonly used to avoid repetition.
 + Calculate once, bind to a name and then use that name.
 
-```
+```haskell
 bmiTell :: (RealFloat a) => a -> a -> String  
 bmiTell weight height  
     | bmi <= skinny = "You're underweight, you emo, you!"  
@@ -74,7 +74,7 @@ bmiTell weight height
 + Important to keep them in one column or Haskell gets confused. :cry:
 + Can also be used to pattern match
 
-```
+```haskell
 where bmi = weight / height ^ 2  
       (skinny, normal, fat) = (18.5, 25.0, 30.0)
 ```
@@ -91,7 +91,7 @@ Prelude> (let a = 100; b = 200; c = 300 in a*b*c, let foo="Hey "; bar = "there!"
 + Very local to scope, not visible across guards.
 
 ## **Case expressions**
-```
+```haskell
 case expression of pattern -> result  
                    pattern -> result  
                    ...  
